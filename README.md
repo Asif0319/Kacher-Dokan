@@ -1,5 +1,7 @@
 # Kacher Dokan v23 — Spring Boot Final
 
+**New download?** Follow [Demo seed and setup instructions](DEMO_SETUP.md) to run with sample accounts, shops and products.
+
 **Use `kaser-dokan-backend` as the only application backend.**
 
 Start here: [USE_THIS_SPRING_VERSION.md](USE_THIS_SPRING_VERSION.md)
