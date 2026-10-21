@@ -1,15 +1,16 @@
-# Kacher Dokan v23 — Spring Boot Final
+# Kacher Dokan
 
-**New download?** Follow [Demo seed and setup instructions](DEMO_SETUP.md) to run with sample accounts, shops and products.
+A grocery ordering project with a Spring Boot backend, web UI and Expo mobile app.
 
-**Use `kaser-dokan-backend` as the only application backend.**
+Start with [Demo seed and setup instructions](DEMO_SETUP.md) for installation, sample accounts, database setup, Bangla voice and mobile setup.
 
-Start here: [USE_THIS_SPRING_VERSION.md](USE_THIS_SPRING_VERSION.md)
+- Backend and served web UI: `kaser-dokan-backend/`
+- Web frontend source: `kaser-dokan-web/public/`
+- Mobile app: `kaser-dokan-mobile/`
+- Synthetic demo database seed: `demo/seed.mongosh.js`
+- Deployment: [Render setup](DEPLOY_RENDER_STEPS.md)
+- Reference: [Project documentation](PROJECT_DOCUMENTATION.md) and [Testing guide](TESTING_GUIDE.md)
 
-- Spring Boot backend: `kaser-dokan-backend/`
-- Web frontend source: `kaser-dokan-web/`
-- Expo mobile app: `kaser-dokan-mobile/`
-- Migration details: `SPRING_BOOT_MIGRATION_REPORT.md`
-- QA notes: `FINAL_QA_SPRING_V23.md`
+The default web address is http://localhost:3000. Configure your own `.env`; live credentials and database records are not included.
 
-The web UI is also served directly by Spring Boot at `http://localhost:3000`.
+The version-named JavaScript and CSS files are active application dependencies and must remain in the project.

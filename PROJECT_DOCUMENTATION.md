@@ -111,8 +111,6 @@ kaser-dokan/
 │
 ├── seed_kaser_dokan.mongosh.js                   # Database initialization & seeding script
 ├── test_queries.mongosh.js                       # Spatial query verification script
-├── PROGRESS.md                                   # Backend roadmap & development milestones
-├── SETUP_INSTRUCTIONS.md                         # Local environment setup instructions
 └── PROJECT_DOCUMENTATION.md                      # Complete master technical documentation
 ```
 
