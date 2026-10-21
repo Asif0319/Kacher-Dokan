@@ -1,0 +1,38 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+credentials*.json
+service-account*.json
+
+# Temporary runtimes, tokens, logs and generated output
+.tools/
+**/target/
+**/node_modules/
+**/.expo/
+**/dist/
+**/web-build/
+**/uploads/
+**/private_uploads/
+*.log
+*.tsbuildinfo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Database data, backups and project seed datasets
+**/dump/
+**/dumps/
+**/backups/
+*.bson
+*.archive
+*.db
+*.sqlite*
+seed_kaser_dokan.js
+seed_kaser_dokan.mongosh.js
+test_queries.mongosh.js
